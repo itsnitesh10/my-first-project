@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Coding Quiz Game 🎮</h1>
+
+        <!-- Name Form -->
+        <form id="nameForm">
+            <input type="text" id="playerName" placeholder="Enter Your Name" required>
+            <button type="submit">Start Game</button>
+        </form>
+
+        <!-- Greeting -->
+        <h2 class="greet" id="greetText" style="display:none;"></h2>
+
+        <!-- Quiz Container -->
+        <div id="quizContainer" class="quiz-container"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
