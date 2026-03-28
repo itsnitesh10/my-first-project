@@ -77,5 +77,4 @@ This project is part of my learning journey in web development.
 * GitHub: https://github.com/itsnitesh10
 
 ---
-
 ⭐ If you like this project, feel free to star the repository!
